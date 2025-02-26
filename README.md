@@ -17,12 +17,41 @@ Repositori ini berisi kumpulan tugas praktikum mata kuliah Algoritma & Pemrogram
 
 ---
 
-### 📂 Modul 2: [Judul Modul 2]
-![Progress](https://img.shields.io/badge/Progress-80%25-yellow)
+### 📂 Modul 2: Simulasi Toggle Pintu Tak Terhingga
+![Progress](https://img.shields.io/badge/Progress-100%25-brightgreen)
 📅 Deadline: DD/MM/YYYY  
-📝 Deskripsi:  
-[Deskripsi lengkap modul 2]  
-🔄 **Status**: Dalam pengerjaan
+📝 **Deskripsi Permasalahan:**
+
+Sebuah simulasi interaksi 7 orang dengan serangkaian pintu tak terhingga yang awalnya dalam kondisi **tertutup semua**. Setiap orang akan memodifikasi status pintu berdasarkan pola tertentu:
+
+#### 🔢 Aturan Operasi Tiap Orang
+| Orang | Pola Pintu yang Dikunjungi | Aksi |
+|-------|-----------------------------|-------|
+| 1     | Semua nomor **ganjil** (1, 3, 5, ...) | Membuka pintu |
+| 2     | Kelipatan **3** (3, 6, 9, ...) | Toggle status (buka/tutup) |
+| 3     | Kelipatan **5** (5, 10, 15, ...) | Toggle status (buka/tutup) |
+| 4     | Kelipatan **8** (8, 16, 24, ...) | Toggle status (buka/tutup) |
+| 5     | Kelipatan **11** (11, 22, 33, ...) | Toggle status (buka/tutup) |
+| 6     | Kelipatan **11** (11, 22, 33, ...) | Toggle status (buka/tutup) |
+| 7     | Kelipatan **26** (26, 52, 78, ...) | Toggle status (buka/tutup) |
+
+#### 💡 Mekanisme Toggle
+- Jika pintu **tertutup** → Dibuka
+- Jika pintu **terbuka** → Ditutup
+
+#### 📌 Contoh Simulasi (Pintu 1-15):
+Kondisi Awal: [T][T][T][T][T][T][T][T][T][T][T][T][T][T][T]
+
+Setelah Orang 1: [O][T][O][T][O][T][O][T][O][T][O][T][O][T][O]
+Setelah Orang 2: [O][T][X][T][O][X][O][T][X][T][O][X][O][T][X]
+...
+
+#### 🎯 Tujuan Program
+1. Memodelkan operasi toggle pintu
+2. Menganalisis pola akhir status pintu
+3. Menghitung jumlah pintu terbuka setelah semua orang selesai
+
+❌ **Status**: belum selesai
 
 ---
 
