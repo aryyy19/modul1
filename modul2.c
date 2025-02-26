@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int 
+int main()
 {
     int a;
     bool pintu = false;
