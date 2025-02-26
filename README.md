@@ -10,7 +10,7 @@ Repositori ini berisi kumpulan tugas praktikum mata kuliah Algoritma & Pemrogram
 
 ### 📂 Modul 1: [Judul Modul 1]
 ![Progress](https://img.shields.io/badge/Progress-100%25-brightgreen)
-📅 Deadline: DD/MM/YYYY  
+📅 Deadline: 04/02/2025  
 📝 Deskripsi:  
 [Deskripsi lengkap modul 1]  
 ✅ **Status**: Selesai
@@ -19,7 +19,7 @@ Repositori ini berisi kumpulan tugas praktikum mata kuliah Algoritma & Pemrogram
 
 ### 📂 Modul 2: Simulasi Toggle Pintu Tak Terhingga
 ![Progress](https://img.shields.io/badge/Progress-100%25-brightgreen)
-📅 Deadline: DD/MM/YYYY  
+📅 Deadline: 04/02/2025 
 📝 **Deskripsi Permasalahan:**
 
 Sebuah simulasi interaksi 7 orang dengan serangkaian pintu tak terhingga yang awalnya dalam kondisi **tertutup semua**. Setiap orang akan memodifikasi status pintu berdasarkan pola tertentu:
